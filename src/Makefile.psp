@@ -83,7 +83,7 @@ MORE_CFLAGS = -O2 -DPSP -DPSPFW30X \
 CFLAGS = $(DEFAULT_CFLAGS) $(MORE_CFLAGS)
 CXXFLAGS = $(DEFAULT_CFLAGS) $(MORE_CFLAGS) -fno-exceptions -fno-rtti
 
-LIBS += -lpspirkeyb -lSDL_image -lSDL -lpng -ljpeg -lpspaudio -lpspgu -lpsppower -lpsphprm -lz -lm -lstdc++
+LIBS += -lSDL_image -lSDL -lGL -lpsprtc -lpspvfpu -lpspirkeyb -lpng -ljpeg -lpspaudio -lpspgu -lpsppower -lpsphprm -lz -lm -lstdc++
 
 BUILD_PRX=1
 
